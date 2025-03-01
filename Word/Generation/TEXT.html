@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Jogo com ProcessingJS</title>
+    <title>MineJS - Jogo Web</title>
     <!-- Incluir a biblioteca ProcessingJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            display: block; /* Remove o espaço em branco ao redor do canvas */
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem-vindo ao MineJS com ProcessingJS!</h1>
-    
-    <!-- Canvas para desenhar o mundo -->
+    <h1 style="position: absolute; color: white; top: 20px; left: 20px;">MineJS - Jogo Web</h1>
     <canvas id="processing-canvas"></canvas>
 
-    <script src="https://cdn.jsdelivr.net/gh/ppauloa37/MineJS/Word/Generation/wordget.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
