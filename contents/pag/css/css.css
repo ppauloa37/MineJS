@@ -1,1 +1,112 @@
-Style of cascat
+body {
+      background-color: black;
+      overflow: hidden;
+      margin: 0px;
+    }
+    #intie {
+      position: absolute;
+      justify-content: center;
+      text-align: center;
+      height: 700px;
+      top: 0px;
+      width: 100%;
+      color: rgb(184, 184, 184);
+      font-size: 40px;
+      background-image: url("https://cdn.jsdelivr.net/gh/ppauloa37/MineJS@main/contents/img/dirt.png");
+
+    }
+    .true {
+      background-color: rgb(168, 168, 168);
+      width: 250px;
+      padding: 5px;
+      border: 1px solid rgb(0, 0, 0);
+      margin-bottom: -50px;
+    }
+    .true:hover {
+      background-color: rgb(202, 202, 202);
+    }
+    .model {
+      background-color: rgb(107, 107, 107);
+      width: 250px;
+      padding: 5px;
+      border: 1px solid rgb(0, 0, 0);
+      margin-bottom: -50px;
+    }
+    #charset, #single {
+      display: none;
+    }
+    #charset {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      color: white;
+      background-image: url("https://cdn.jsdelivr.net/gh/ppauloa37/MineJS@main/contents/img/dirt.png");
+    }
+    #WorldsMy {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.507);
+      width: 100%;
+      height: 50%;
+      top: 20%;
+      overflow: visible;
+    }
+    #single input {
+      position: absolute;
+      left: 38.5%;
+      top: 70px;
+      width: 300px;
+      padding: 5px;
+      font-size: 20px;
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      border-radius: 5px;
+    }
+    .world {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.637);
+      width: 300px;
+      padding: 10px;
+      height: 120px;
+      left: 38.5%;
+      border: 1.5px solid rgb(0, 0, 0);
+      color: white;
+    }
+    #single .true, .model {
+      margin-left: 20px;
+    }
+    #playworld {
+      position: absolute;
+      top: 75%;
+    }
+    #deleteworld {
+      position: absolute;
+      top: 80%;
+    }
+    #exportworld {
+      position: absolute;
+      top: 85%;
+    }
+    #editworld {
+      position: absolute;
+      top: 75%;
+      left: 260px;
+    }
+    .game {
+      position: absolute;
+      display: none;
+      width: 200px;
+      height: 50px;
+      background-color: rgba(0, 0, 0, 0.425);
+      text-align: center;
+      
+    }
+    .version {
+      position: absolute;
+      font-size: 13px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.61);
+      text-align: left;
+      width: 300px;
+      top: 87.5%;
+    }
